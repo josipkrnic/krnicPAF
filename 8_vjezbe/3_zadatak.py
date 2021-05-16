@@ -9,7 +9,7 @@ def domet_o_trenju():
     p2 = prj.Projectile()
     C_d = 1
     m_0 = 1
-    for i in range(1,500):#za tisuću različitih objekata
+    for i in range(1,500):#za petsto različitih objekata
         C_d += 0.01#svaki sljedeći CD će biti za 0.01 veći od prethodnog
         m_0 += 0.1 #svaka sljedeća masa bit će za 0.1 kg veća od prethodne
         Koef_tr.append(C_d)
