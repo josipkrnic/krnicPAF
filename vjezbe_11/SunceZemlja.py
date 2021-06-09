@@ -14,6 +14,6 @@ T = 60*60*24*365
 X,Y,x,y = sz.move(T)
 ax = plt.axes()
 ax.set_facecolor("black")
-plt.plot(X,Y,color="yellow")
+plt.plot(X,Y,"yo")
 plt.plot(x,y,"blue")
 plt.show()
